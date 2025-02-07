@@ -1,0 +1,53 @@
+<head>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" 
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+  <link rel="stylesheet" href="css\lab3.css"/>
+ 
+ <style>
+
+   
+    /* Set the height of the map */
+    #map {
+        height: 600px;
+        width: 100%;
+    
+    }
+    #map2 {
+        height: 600px;
+        width: 100%;
+    }
+    
+
+    /* Styling for the legend */
+    .info.legend {
+        line-height: 18px;
+        color: #555;
+        background-color: white;
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    .info.legend i {
+        width: 18px;
+        height: 18px;
+        margin-right: 8px;
+        border-radius: 50%;
+        display: inline-block;
+    }
+</style>
+</head>
+<body>
+    <h1 id="header"> Lab 3 - Interactive Mapping with Leaflet </h1>
+    <p id = "myname"> Kylie Griggs - GEOG 572, Winter 2025</p>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+    <p id="mp1">Bridges built in Oregon from 1900-1950</p>
+<div id="map"></div>
+<p id="mp2" > Number of Bridges per County</p>
+<div id="map2"></div>
+<script src = "js\lab3.js"></script>
+
+</body>

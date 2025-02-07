@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+}
+#header{
+    text-align: center;
+    color: black;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif';
+    margin-top: 20px;
+}
+#myname{
+    text-align: center;
+    color: black;
+font-size: large;
+font-family: 'Times New Roman', Times, serif;
+margin-bottom: 20px;}
+.info.legend {
+    font-family: 'Times New Roman', times, serif;
+}
+    #mp1, #mp2 {text-align: left;
+        color: black; 
+        font-family:'Times New Roman', Times, serif;
+         font-size: x-large; 
+         font-style: italic;
+     }

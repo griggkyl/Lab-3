@@ -1,0 +1,116 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis version="3.34.9-Prizren">
+  <identifier>BLM OR County Boundaries Polygon</identifier>
+  <parentidentifier></parentidentifier>
+  <language>ENG</language>
+  <type>dataset</type>
+  <title>BLM OR County Boundaries Polygon</title>
+  <abstract>COB_POLY: This theme shows the jurisdictional and cartographic county areas for Oregon and Washington. The POCA layer is an integrated set of geographic- referencing data covering the state of Washington. It is derived from land surveys, DNR orthophotos, USGS 7.5' quadrangles, and DNR tract books.
+
+Resource management planning and mapping
+
+COB_POLY: This theme shows the jurisdictional and cartographic county areas for Oregon and Washington. The POCA layer is an integrated set of geographic- referencing data covering the state of Washington. It is derived from land surveys, DNR orthophotos, USGS 7.5' quadrangles, and DNR tract books.
+
+Resource management planning and mapping
+
+BLM (Bureau of Land Management), CFF (Cartographic Feature File), DLG (Digital Line Graph), DNR (Washington Department of Natural Resources), DRG (Digital Raster Graphic), FIPS (Federal Information Processing Standard), GCD (Geographic Coordinate Database layer), GCDB (Geographic Coordinate Data Base), HYD (WODDB Hydrologic Features layer), LLI (Landlines layer), USFS (U.S. Forest Service), USGS (U.S. Geological Survey), WODDB (Western Oregon Digital Data Base) A published revision of the Department Manual’s Part 305: Departmental Science Effects, Chapter 3: Integrity of Scientific and Scholarly Activities (305 DM 3), effective December 16, 2014, is available online at http://elips.doi.gov/ELIPS/DocView.aspx?id=4056. Scholarly information considered in Departmental decision making must be robust, of the highest quality, and the result of as rigorous scientific and scholarly processes as can be achieved. Most importantly, it must be trustworthy. This policy helps us to achieve that standard (http://www.doi.gov/scientificintegrity/index.cfm)
+
+BLM (Bureau of Land Management), CFF (Cartographic Feature File), DLG (Digital Line Graph), DNR (Washington Department of Natural Resources), DRG (Digital Raster Graphic), FIPS (Federal Information Processing Standard), GCD (Geographic Coordinate Database layer), GCDB (Geographic Coordinate Data Base), HYD (WODDB Hydrologic Features layer), LLI (Landlines layer), USFS (U.S. Forest Service), USGS (U.S. Geological Survey), WODDB (Western Oregon Digital Data Base) A published revision of the Department Manual’s Part 305: Departmental Science Effects, Chapter 3: Integrity of Scientific and Scholarly Activities (305 DM 3), effective December 16, 2014, is available online at http://elips.doi.gov/ELIPS/DocView.aspx?id=4056. Scholarly information considered in Departmental decision making must be robust, of the highest quality, and the result of as rigorous scientific and scholarly processes as can be achieved. Most importantly, it must be trustworthy. This policy helps us to achieve that standard (http://www.doi.gov/scientificintegrity/index.cfm)</abstract>
+  <keywords vocabulary="Search keys">
+    <keyword>boundaries</keyword>
+    <keyword>Cartographic</keyword>
+    <keyword>COB</keyword>
+    <keyword>County Boundaries</keyword>
+    <keyword>Framework</keyword>
+    <keyword>Geospatial</keyword>
+    <keyword>Jurisdiction</keyword>
+    <keyword>Lands</keyword>
+    <keyword>Management</keyword>
+    <keyword>Oregon</keyword>
+    <keyword>Washington</keyword>
+  </keywords>
+  <keywords vocabulary="gmd:topicCategory">
+    <keyword>Geospatial</keyword>
+    <keyword>Management</keyword>
+    <keyword>Cartographic</keyword>
+    <keyword>COB</keyword>
+    <keyword>County Boundaries</keyword>
+    <keyword>Framework</keyword>
+    <keyword>Jurisdiction</keyword>
+    <keyword>Lands</keyword>
+    <keyword>Management</keyword>
+    <keyword>boundaries</keyword>
+    <keyword>Cartographic</keyword>
+  </keywords>
+  <contact>
+    <contactAddress>
+      <type>postal</type>
+      <address>P.O. Box 2965</address>
+      <city>Portland</city>
+      <administrativearea>OR</administrativearea>
+      <postalcode>97208</postalcode>
+      <country>US</country>
+    </contactAddress>
+    <name>Roger Mills</name>
+    <organization>Bureau of Land Management, Oregon State Office</organization>
+    <position>GIS Specialist</position>
+    <voice>(503) 808-6340</voice>
+    <fax></fax>
+    <email>r2mills@blm.gov</email>
+    <role>Point of contact</role>
+  </contact>
+  <contact>
+    <contactAddress>
+      <type>mailing address</type>
+      <address>P.O. Box 2965</address>
+      <city>Portland</city>
+      <administrativearea>OR</administrativearea>
+      <postalcode>97201</postalcode>
+      <country>USA</country>
+    </contactAddress>
+    <name></name>
+    <organization></organization>
+    <position></position>
+    <voice>(503) 808-6145</voice>
+    <fax></fax>
+    <email>cplank@blm.gov</email>
+    <role>Point of contact</role>
+  </contact>
+  <links/>
+  <history>Data source: Lines</history>
+  <history>Data source: Lines</history>
+  <history>Data source: Lines and attributes</history>
+  <history>Data source: Lines</history>
+  <history>Data source: Lines</history>
+  <dates>
+    <date value="2023-07-07T00:00:00" type="Published"/>
+  </dates>
+  <fees></fees>
+  <constraints type="Limitations of use">These data are provided by Bureau of Land Management (BLM) "as is" and may contain errors or omissions. The User assumes the entire risk associated with its use of these data and bears all responsibility in determining whether these data are fit for the User's intended use. The information contained in these data is dynamic and may change over time. The data are not better than the original sources from which they were derived, and both scale and accuracy may vary across the data set. These data may not have the accuracy, resolution, completeness, timeliness, or other characteristics appropriate for applications that potential users of the data may contemplate. The User is encouraged to carefully consider the content of the metadata file associated with these data. These data are neither legal documents nor land surveys, and must not be used as such. Official records may be referenced at most BLM offices. Please report any errors in the data to the BLM office from which it was obtained. The BLM should be cited as the data source in any products derived from these data. Any Users wishing to modify the data should describe the types of modifications they have performed. The User should not misrepresent the data, nor imply that changes made were approved or endorsed by BLM. This data may be updated by the BLM without notification. DATA STEWARD APPROVAL: Corey Plank, state data steward for COB_POLY, approved the use of this dataset on April 26, 2019.</constraints>
+  <constraints type="Access">PUBLIC DATA: None, these data are considered public domain.</constraints>
+  <rights>Bureau of Land Management (BLM), Oregon State Office</rights>
+  <rights>These data are provided by Bureau of Land Management (BLM) "as is" and may contain errors or omissions. The User assumes the entire risk associated with its use of these data and bears all responsibility in determining whether these data are fit for the User's intended use. The information contained in these data is dynamic and may change over time. The data are not better than the original sources from which they were derived, and both scale and accuracy may vary across the data set. These data may not have the accuracy, resolution, completeness, timeliness, or other characteristics appropriate for applications that potential users of the data may contemplate. The User is encouraged to carefully consider the content of the metadata file associated with these data. These data are neither legal documents nor land surveys, and must not be used as such. Official records may be referenced at most BLM offices. Please report any errors in the data to the BLM office from which it was obtained. The BLM should be cited as the data source in any products derived from these data. Any Users wishing to modify the data should describe the types of modifications they have performed. The User should not misrepresent the data, nor imply that changes made were approved or endorsed by BLM. This data may be updated by the BLM without notification. DATA STEWARD APPROVAL: Corey Plank, state data steward for COB_POLY, approved the use of this dataset on January 22, 2016.</rights>
+  <encoding></encoding>
+  <crs>
+    <spatialrefsys nativeFormat="Wkt">
+      <wkt></wkt>
+      <proj4></proj4>
+      <srsid>0</srsid>
+      <srid>0</srid>
+      <authid></authid>
+      <description></description>
+      <projectionacronym></projectionacronym>
+      <ellipsoidacronym></ellipsoidacronym>
+      <geographicflag>false</geographicflag>
+    </spatialrefsys>
+  </crs>
+  <extent>
+    <spatial maxx="-116" minz="0" dimensions="2" crs="EPSG:4326" maxy="49.5" miny="41.5" maxz="0" minx="-125"/>
+    <temporal>
+      <period>
+        <start>2023-07-07T07:00:00Z</start>
+        <end></end>
+      </period>
+    </temporal>
+  </extent>
+</qgis>
