@@ -158,16 +158,35 @@ function style(feature) {
     legendii.addTo(map2);
 }   
 
-//create popups
+// Create popups with hover effect
 function onEachFeature(feature, layer) {
     if (feature.properties && feature.properties.COUNTY_NAM && feature.properties.Bridge_Sum_count
-        && feature.properties.Bridge_Sum_avg_suf_rating
-    ) {const avgSuff = feature.properties.Bridge_Sum_avg_suf_rating.toFixed(2);
-        layer.bindPopup("<strong>" + feature.properties.COUNTY_NAM 
-        + "</strong><br>" + "Number of Bridges: " + feature.properties.Bridge_Sum_count + "<br>" +
-        "Average Sufficiency Rating: " + avgSuff
-    );}
+        && feature.properties.Bridge_Sum_avg_suf_rating) {
+        
+        // Round the average sufficiency rating to 2 decimal places
+        const avgSuff = feature.properties.Bridge_Sum_avg_suf_rating.toFixed(2);
+        
+        // Set the content for the popup
+        const popupContent = "<strong>" + feature.properties.COUNTY_NAM + "</strong><br>" +
+                             "Number of Bridges: " + feature.properties.Bridge_Sum_count + "<br>" +
+                             "Average Sufficiency Rating: " + avgSuff;
 
+        // Bind the popup to the layer
+        layer.bindPopup(popupContent);
+
+        // Add hover effect for popup display
+        layer.on({
+            mouseover: function (e) {
+                var layer = e.target;
+                layer.openPopup(); // Open the popup on hover
+            },
+            mouseout: function (e) {
+                var layer = e.target;
+                geojson.resetStyle(layer); // Reset style on mouseout
+                layer.closePopup(); // Close the popup when the mouse leaves
+            }
+        });
+    }
 }
 
     //load the data
